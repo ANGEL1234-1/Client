@@ -11,7 +11,7 @@ public class Client {
 
     public Client() {
         try {
-            this.socket = new Socket("localhost", 54321);
+            this.socket = new Socket("192.168.4.8", 54321);
 
             do {
                 scan = new Scanner(System.in);
